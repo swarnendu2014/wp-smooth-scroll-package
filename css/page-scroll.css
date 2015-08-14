@@ -1,0 +1,41 @@
+/* SCROLLER CSS */
+
+
+div.pageTop {
+    position: fixed;
+    right: 15px;
+    bottom: 55px;
+    background: #ff6e49 url("../img/unduit-up.png") no-repeat center 10px;
+    width: 98px;
+    height: 98px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 55px 20px 0px;
+    cursor: pointer;
+    z-index: 99;
+    opacity: 0;
+    -webkit-transition: all .17s ease-in-out;
+    -moz-transition: all .17s ease-in-out;
+    -o-transition: all .17s ease-in-out;
+    transition: all .17s ease-in-out;
+}
+
+div.pageTop:hover{
+    background: #cc5436;
+    -webkit-transition: all .17s ease-in-out;
+    -moz-transition: all .17s ease-in-out;
+    -o-transition: all .17s ease-in-out;
+    transition: all .17s ease-in-out;
+}
+
+
+.pageTop.cd-is-visible {
+    opacity: 1;
+    -webkit-transition: all .17s ease-in-out;
+    -moz-transition: all .17s ease-in-out;
+    -o-transition: all .17s ease-in-out;
+    transition: all .17s ease-in-out;
+}
