@@ -1,0 +1,1 @@
+# wp-smooth-scroll-package
