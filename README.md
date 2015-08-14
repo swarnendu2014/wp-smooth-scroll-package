@@ -7,5 +7,7 @@ You can customoze the scroll to top button from plug in setting page.
 Installation:
 ____________
 Step 1: Download the zip.
+
 Step 2: Put it in plugin folder.
+
 Step 3: Activate the plugin from admin page.
